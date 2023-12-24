@@ -1,9 +1,9 @@
 main:
 
-  - title: Transitions and Trends Dominating Conservation Social Science Research in China: A Bibliometric Analysis (1998–2022)
-    authors: Song Chen, Elmer Monteblanco, Rohit Pachat, Liza Herrera Diez, Dafiné Ravelosona
+  - title: Transitions and Trends Dominating Conservation Social Science Research in China: A Bibliometric Analysis 1998–2022
+    authors: <strong>Daye Zhai</strong>, Weiye Wang (Advisor), Jinlong Liu*
     conference_short: IASNR
-    conference: 2023 International Association for Society and Natural Resources (IASNR) Conference
+    conference: 2023 International Association for Society and Natural Resources Conference
     pdf: ./assets/files/JEMS2023_Song.pdf
     web: https://www.jems2023.es/
     image: ./assets/files/JEMS2023_2.jpg
