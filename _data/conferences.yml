@@ -1,13 +1,12 @@
 main:
 
-  - title: Reversible and Non-volatile Magneto-ionic effect in W-CoFeB-MgO-HfO2 ultra-thin films with Perpendicular Anisotropy
-    authors: Song Chen, Elmer Monteblanco, Rohit Pachat, Liza Herrera Diez, Dafiné Ravelosona
-    conference_short: JEMS
-    conference: 13th Joint European Magnetic Symposia
-    pdf: ./assets/files/JEMS2023_Song.pdf
-    web: https://www.jems2023.es/
-    image: ./assets/files/JEMS2023_2.jpg
-    notes: Accepted
+  - title: Transitions and Trends Dominating Conservation Social Science Research in China: A Bibliometric Analysis (1998–2022)
+    authors: <strong>Daye Zhai</strong>, Weiye Wang (Advisor), Jinlong Liu
+    conference_short: IASNR
+    conference: 2023 International Association for Society and Natural Resources (IASNR) Conference
+    pdf: ./assets/files/IASNR.pdf
+    web: https://www5.iasnr.org/
+    image: ./assets/img/IASNR.jpg
 
   - title: BeMAGIC CONFERENCE IN TORINO – POST EVENT
     conference_short: BeMAGIC
