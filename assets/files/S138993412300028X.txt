@@ -1,0 +1,11 @@
+Weiye Wang, Daye Zhai, Bo Huang,
+Implementation gaps affecting the quality of biodiversity conservation management: An ethnographic study of protected areas in Fujian Province, China,
+Forest Policy and Economics,
+Volume 149,
+2023,
+102933,
+ISSN 1389-9341,
+https://doi.org/10.1016/j.forpol.2023.102933.
+(https://www.sciencedirect.com/science/article/pii/S138993412300028X)
+Abstract: Policies play a vital role in setting goals for biodiversity conservation management. China has set an ambitious biodiversity conservation target since acceding to the Convention on Biological Diversity (CBD); however, there remains an obvious gap between China's conservation targets and the results of policy implementation. To understand the barriers to policy implementation, this study examined local actors' perceptions of biodiversity conservation policy implementation based on an adaptive management logic. We systematically investigated the status of policy implementation in protected areas in Fujian Province, China, through face-to-face interviews. We identified a series of barriers that affect the implementation of biological conservation policies, including conflicting priorities in functions, objectives and operations between local governments and local forestry bureau, controversy over forest tenure, inadequate funding and hierarchy-induced funding misallocation, insufficient professional expertise, and a lack of scientific support for the establishment, enlargement and routine management of protected areas. By incorporating the decomposition of interest, beliefs and power structure of multiple actors, we were able to establish links between management inadequacies and the broader political and institutional context. The intertwined interactions between multiple actors create the action arena through which bureaucratic structures and institutional deficiencies combine to distort the implementation of conservation policies. Our research has important implications for developing countries that are undergoing changes in their conservation systems.
+Keywords: Policy implementation; Biological conservation; National park; Protected area; Management; China
