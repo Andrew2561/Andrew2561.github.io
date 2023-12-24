@@ -4,7 +4,7 @@ main:
     authors: Daye Zhai, Weiye Wang (Advisor), Jinlong Liu
     conference_short: IASNR
     conference: 2023 International Association for Society and Natural Resources (IASNR) Conference
-    pdf: ./assets/files/IASNR.pdf
+    pdf:
     web: https://www5.iasnr.org/
     image:
 
