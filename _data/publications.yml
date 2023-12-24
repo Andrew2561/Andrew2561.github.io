@@ -1,15 +1,5 @@
 main:
 
-  - title: Conflicts in mangrove protected areas through the actor-centred power framework - Insights from China
-    authors: Weiye Wang (Advisor), <strong>Daye Zhai</strong>, Xinyang Li, Haowen Fang, Yuanyuan Yang*
-    conference_short: Forest Policy Econ.
-    conference: Forest Policy and Economics
-    pdf: ./assets/files/multi.pdf
-    page: https://www.sciencedirect.com/science/article/pii/S1389934123002174
-    bibtex: ./assets/files/S1389934123002174.txt
-    image: ./assets/img/power_conflict.jpg
-    notes: Published
-
   - title: Magneto‐Ionics in Annealed W/CoFeB/HfO2 Thin Films
     authors: Rohit Pachat, Djoudi Ourdani, Maria‐andromachi Syskaki, Alessio Lamperti, Subhajit Roy, <strong>Song Chen</strong>, Adriano Di Pietro, Ludovic Largeau, Roméo Juge, Maryam Massouras, Cristina Balan, Johannes Wilhelmus van der Jagt, Guillaume Agnus, Yves Roussigné, Mihai Gabor, Salim Mourad Chérif, Gianfranco Durin, Shimpei Ono, Jürgen Langer, Damien Querlioz, Dafiné Ravelosona, Mohamed Belmeguenai, Liza Herrera Diez
     conference_short: Adv. Mater. Interfaces
@@ -29,5 +19,3 @@ main:
     bibtex: ./assets/files/flexible.txt
     image: ./assets/files/1-s2.0-S0925400523004458-ga1_lrg.jpg
     notes: Published
-
-  
