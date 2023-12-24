@@ -6,7 +6,7 @@ main:
     conference: 2023 International Association for Society and Natural Resources (IASNR) Conference
     pdf: ./assets/files/IASNR.pdf
     web: https://www5.iasnr.org/
-    image: ./assets/img/IASNR.jpg
+    image: ./assets/files/IASNR.jpg
 
   - title: BeMAGIC CONFERENCE IN TORINO – POST EVENT
     conference_short: BeMAGIC
