@@ -1,10 +1,10 @@
 main:
 
-  - title: Conflicts in mangrove protected areas through the actor-centred power framework_Insights from China
+  - title: Conflicts in mangrove protected areas through the actor-centred power framework - Insights from China
     authors: Weiye Wang (Advisor), <strong>Daye Zhai</strong>, Xinyang Li, Haowen Fang, Yuanyuan Yang*
     conference_short: Forest Policy Econ.
     conference: Forest Policy and Economics
-    pdf: https://www.sciencedirect.com/science/article/pii/S1389934123002174
+    pdf: ./assets/files/FPE2024.pdf
     page: https://www.sciencedirect.com/science/article/pii/S1389934123002174
     bibtex: ./assets/files/S1389934123002174.txt
     image: ./assets/img/power_conflict.jpg
@@ -14,7 +14,7 @@ main:
     authors: Weiye Wang (Advisor), <strong>Daye Zhai</strong>, Bo Huang*
     conference_short: Forest Policy Econ.
     conference: Forest Policy and Economics
-    pdf: https://www.sciencedirect.com/science/article/pii/S138993412300028X
+    pdf: ./assets/files/FPE2023.pdf
     page: https://www.sciencedirect.com/science/article/pii/S138993412300028X
     bibtex: ./assets/files/S138993412300028X.txt
     image: ./assets/img/Fujian.jpg
