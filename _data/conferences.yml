@@ -1,6 +1,6 @@
 main:
 
-  - title: Reversible and Non-volatile Magneto-ionic effect in W-CoFeB-MgO-HfO2 ultra-thin films with Perpendicular Anisotropy
+  - title: Transitions and Trends Dominating Conservation Social Science Research in China: A Bibliometric Analysis (1998–2022)
     authors: <strong>Daye Zhai</strong>, Weiye Wang (Advisor), Jinlong Liu*
     conference_short: IASNR
     conference: 2023 International Association for Society and Natural Resources (IASNR) Conference
@@ -9,9 +9,9 @@ main:
     image: ./assets/files/JEMS2023_2.jpg
 
   - title: BeMAGIC CONFERENCE IN TORINO – POST EVENT
-    conference_short: BeMAGIC
-    conference: BeMAGIC CONFERENCE IN TORINO
-    abstract: The BeMAGIC conference in Torino, entitled “Beyond Magnetoelectric Materials”, was successfully organized by the network ESRs (Early Stage Researchers). This event took place on 12-15 June 2023 at the Starhotel Majestic, Torino, Italy. The programme included 15 top-class experts in the magnetoelectric field, who delivered lectures on the following topics&#58; multiferroics, surface charging, magnetoionics and applications in healthcare, energy efficiency and cybersecurity.
+    authors: Weiye Wang (Advisor), <strong>Daye Zhai</strong>, Jinlong Liu*
+    conference_short: CSBSC
+    conference: The 14th China Symposium on Biodiversity Science and Conservation
     pdf: https://bemagic-etn.eu/images/files2023/BeMAGIC_Conference_Torino_2023.pdf
     web: https://bemagic-etn.eu/news/79-bemagic-conference-in-torino-2023-post-event
     image: ./assets/img/Group_picture.jpg
