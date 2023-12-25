@@ -1,30 +1,28 @@
 main:
 
-  - title: I-V Measurement System
-    authors: Song Chen
-    project_short: Software
-    project: The software is used to aplly the bias voltage and measure the current. Futher features such as I-V, V-I switching toggle, and Cyclic Voltammetry (CV) will be also included. 
-    pdf: https://icloud.songchen.science/?/I-V/
-    web: https://icloud.songchen.science/?/I-V/
-    image: https://blog.songchen.science/images/I-V/GUI.png
+  - title: Impact & Mechanism of Management Effectiveness on Local Socio-Ecological Coupling Coordination (No. 72204252)
+    authors: Research Assistant
+    project_short: NSFC
+    project: Youth Program of the National Natural Science Foundation of China
+    pdf:
+    web:
+    image: ./assets/img/YellowRiverBasin.jpg
     notes:
 
-  - title: Anomalous Hall Effect Measurement System (AHEMS)
-    authors: Song Chen
-    project_short: Software
-    project: The software is used to obatin the AHE hysteresis loops which is based on he relationship between the anomalous Hall conductivity and an external magnetic field applied to a material.
-    pdf: https://icloud.songchen.science/?/AHEMS/
-    web: https://icloud.songchen.science/?/AHEMS/
-    image: https://blog.songchen.science/images/AHE/GUI.png
+  - title: Impact of Agricultural Product Quality Certification on Agricultural Green Production (No. 22A02)
+    authors: Core Member
+    project_short: GRTS
+    project: 2022 Graduate Research Training Scheme Project
+    pdf:
+    web:
+    image: ./assets/img/Food.jpg
     notes:
 
-  - title: AutoVA - Automated VCMA & AHE Measurement System
-    authors: Song Chen
-    project_short: Software
-    project: The software is used to 1. control the E-field applied for the VCMA/Magnetoelectric coupling; 2. to control the elctromagnetic field; 3. to control the SMU to apply one bias current ,and meanwhile measuring the Hall voltage. All the parameters can be set correspondingly and sequencer can be made to realize the automation.
-    pdf: ./assets/files/AutoVA.pdf
+  - title: Impact & Practical Mechanism of County-level Forest Governance on Forest Fragmentation (No. 2019010133)
+    authors: Research Assistant
+    project_short: NSFC
+    project: General Program of the National Natural Science Foundation of China
+    pdf: 
     web: 
-    image: ./assets/img/autova.png
-    notes: Non-Open Source
-
-
+    image: ./assets/img/EKC.jpg
+    notes:
