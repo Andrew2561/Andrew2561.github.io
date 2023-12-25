@@ -1,6 +1,6 @@
 main:
 
-  - title: Transitions and Trends Dominating Conservation Social Science Research in China_A Bibliometric Analysis (1998–2022)
+  - title: Transitions and trends dominating conservation social science research in China_A bibliometric analysis (1998–2022)
     authors: <strong>Daye Zhai</strong>, Weiye Wang (Advisor), Jinlong Liu*
     conference_short: IASNR
     conference: 2023 International Association for Society and Natural Resources (IASNR) Conference
@@ -8,7 +8,7 @@ main:
     web: https://www5.iasnr.org/
     image: ./assets/img/IASNR.jpg
 
-  - title: Research on the Interdisciplinary Integration and Development of Conservation Science
+  - title: Research on the interdisciplinary integration and development of conservation science
     authors: Weiye Wang (Advisor), <strong>Daye Zhai</strong>, Jinlong Liu*
     conference_short: CSBSC
     conference: The 14th China Symposium on Biodiversity Science and Conservation
