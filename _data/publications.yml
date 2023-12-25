@@ -20,7 +20,7 @@ main:
     image: ./assets/img/Fujian.jpg
     notes: Published
 
-   - title: Research on the Interdisciplinary Integration and Development of Conservation Science
+  - title: Research on the Interdisciplinary Integration and Development of Conservation Science
     authors: Weiye Wang (Advisor), <strong>Daye Zhai</strong>, Jinlong Liu*
     conference_short: Acta Ecologica Sinica
     conference: Acta Ecologica Sinica
