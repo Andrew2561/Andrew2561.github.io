@@ -8,7 +8,7 @@ layout: homepage
 
 I am currently a master's student at [Renmin University of China](https://www.ruc.edu.cn/), working under the mentorship of Dr. [Weiye Wang](http://www.sard.ruc.edu.cn/szll/zzjs/zljs/1dd5c48274a14d50b92a247660304b09.htm) and Prof. [Jinlong Liu](http://www.sard.ruc.edu.cn/szll/zzjs/qzjs/fe63003875164abeba03c5016a4c5d20.htm).
 ## Research Interests
-- **Biodiversity Conservation Policy and Protected Areas**
+- **Conservation Policy and Protected Areas**
 - **Forestry Policy and Economics**
 - **Socio-Ecological Systems (SES) and Commons Governance**
 
