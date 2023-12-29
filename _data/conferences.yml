@@ -8,7 +8,7 @@ main:
     web: https://www5.iasnr.org/
     image: ./assets/img/IASNR.jpg
 
-  - title: Research on the interdisciplinary integration and development of conservation science
+  - title: Research on natural-social science cross-integration and development of biodiversity conservation in China
     authors: Weiye Wang (Advisor), <strong>Daye Zhai</strong>, Jinlong Liu*
     conference_short: CSBSC
     conference: The 14th China Symposium on Biodiversity Science and Conservation
