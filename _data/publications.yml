@@ -20,10 +20,10 @@ main:
     image: ./assets/img/Fujian.jpg
     notes: Published
 
-  - title: Research on natural-social science cross-integration and development of biodiversity conservation in China
+  - title:  Research on interdisciplinary integration and development of natural–social sciences for biodiversity conservation in China
     authors: Weiye Wang (Advisor), <strong>Daye Zhai</strong>, Jinlong Liu*
     conference_short: Acta Ecologica Sinica
     conference: Acta Ecologica Sinica
-    pdf: https://drive.google.com/file/d/1x5akYlcN2uUOJqImbEyD0xxkzgCsssYv/view
+    pdf: ./assets/files/ActaEcologicaSinica2024.pdf
     image: ./assets/img/Acta_Ecologica_Sinica.jpg
     notes: Accepted
