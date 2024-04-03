@@ -17,12 +17,3 @@ main:
     web:
     image: ./assets/img/Food.jpg
     notes:
-
-  - title: Impact and Practical Mechanism of County-level Forest Governance on Forest Fragmentation (No. 2019010133)
-    authors: Research Assistant
-    project_short: NSFC
-    project: General Program of the National Natural Science Foundation of China
-    pdf: 
-    web: 
-    image: ./assets/img/EKC.jpg
-    notes:
