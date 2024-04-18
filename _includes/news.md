@@ -3,7 +3,6 @@
 <h2 style="margin: 30px 0px 10px;">News</h2>
 
 <ul>
-<li><strong>[APR. 2024]</strong> I got accepted to <span style="color:#e74d3c"><a href="https://info.harris.uchicago.edu/eepl-program">Duke UPEP</a></span>!</li>
 <li><strong>[APR. 2024]</strong> I got accepted to the <span style="color:#e74d3c"><a href="https://info.harris.uchicago.edu/eepl-program">PKU-UChicago Summer School of Environmental Economics and Policy Lab (EEPL)</a></span>!</li>
 <li><strong>[MAR. 2024]</strong> I have completed my master's thesis entitled "Resource Dilemma, Bricolage and Agropastoral Coupling: Evidence from the Gansu-Qinghai Border Zone."</li>
 <li><strong>[OCT. 2023]</strong> I will participate in fieldwork in Qilian County, Qinghai Province and Minle County, Gansu Province.</li>
