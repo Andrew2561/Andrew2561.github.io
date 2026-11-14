@@ -3,7 +3,6 @@ layout: resources.njk
 title: Resources
 permalink: /resources/
 ---
-
 ## Conferences
 
 ### Environmental Economics
@@ -48,7 +47,7 @@ Natural Capital Symposium | Stanford
 
 ### Public Policy & Political Science
 
-[Environmental Politics and Governance Conference](https://epgnetwork.org/past-conferences/) | [The Environmental Politics and Governance (EPG) network ](https://epgnetwork.org/)
+[Environmental Politics and Governance Conference](https://epgnetwork.org/past-conferences/) | [The Environmental Politics and Governance (EPG) network](https://epgnetwork.org/) 
 
 [Association for Public Policy Analysis & Management (APPAM)](https://www.appam.org/)
 
@@ -490,7 +489,7 @@ Annual Yale Global Environmental Justice Conference/Environmental Joy Congress |
 
 ### Structural Estimation
 
-[ECON ](https://sites.northwestern.edu/iac879/teaching/e-lectures-econ480/)[7115 Structural Models and Numerical Methods in Economics](https://github.com/WangZi-HKBU/econ7115) @ Zi Wang (HKBU)
+[ECON 7115 Structural Models and Numerical Methods in Economics](https://github.com/WangZi-HKBU/econ7115) @ Zi Wang (HKBU)
 
 [Structural Econometrics](https://comlabgames.com/structuraleconometrics/https://comlabgames.com/structuraleconometrics/) @ Robert Miller (CMU)
 
