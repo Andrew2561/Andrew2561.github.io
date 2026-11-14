@@ -1,0 +1,29 @@
+---
+layout: base.njk
+---
+<h1 class="page-title">{{ title }}</h1>
+
+{% if statement %}
+<details class="fold fold-statement"{% if statement_open %} open{% endif %}>
+  <summary><span>{{ statement_title or "Teaching Statement" }}</span></summary>
+  <div class="fold-body prose">
+    {{ statement | md | safe }}
+  </div>
+</details>
+{% endif %}
+
+{{ content | safe }}
+
+{% if experience.length %}
+<h2>Teaching Experience</h2>
+{% for e in experience %}
+<div class="inst">
+  <h3>{{ e.institution }}</h3>
+  <ul class="bar-list">
+    {%- for c in e.courses %}
+    <li>{{ c }}</li>
+    {%- endfor %}
+  </ul>
+</div>
+{% endfor %}
+{% endif %}

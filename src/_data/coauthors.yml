@@ -1,0 +1,61 @@
+# Co-author homepages. Fill in a URL once and every paper that lists
+# this co-author (same spelling, e.g. "Pfaff, A.") links to it automatically.
+# Leave url empty if the co-author has no homepage.
+- name: Chen, B.
+  url: ""
+- name: Chen, X.
+  url: ""
+- name: Fan, Y.
+  url: ""
+- name: Fang, H.
+  url: ""
+- name: Hu, M.
+  url: ""
+- name: Huang, B.
+  url: ""
+- name: Lana, J.
+  url: ""
+- name: Li, X.
+  url: ""
+- name: Lin, T.
+  url: ""
+- name: Lin, Y.
+  url: ""
+- name: Liu, J.
+  url: ""
+- name: Mei, B.
+  url: ""
+- name: Pan, W.
+  url: ""
+- name: Pantoja, C.
+  url: ""
+- name: Pfaff, A.
+  url: ""
+- name: Smith, M.
+  url: ""
+- name: Sousa e Silva, A. R.
+  url: ""
+- name: Tang, J.
+  url: ""
+- name: Tanner, M. K.
+  url: ""
+- name: Tukker, A.
+  url: ""
+- name: Wang, J.
+  url: ""
+- name: Wang, W.
+  url: ""
+- name: Wang, Z.
+  url: ""
+- name: Xiang, Y.
+  url: ""
+- name: Yang, Y.
+  url: ""
+- name: Ye, Z.
+  url: ""
+- name: Yu, Z.
+  url: ""
+- name: Zhang, J.
+  url: ""
+- name: Zhu, S.
+  url: ""

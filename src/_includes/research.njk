@@ -1,0 +1,80 @@
+---
+layout: base.njk
+---
+{%- set sections = [
+  ["published", "Peer Reviewed Papers"],
+  ["working", "Working Papers"],
+  ["progress", "Works in Progress"]
+] -%}
+<h1 class="page-title">{{ title }}</h1>
+
+{% if statement %}
+<div class="bar-box statement">
+  {{ statement | md | safe }}
+</div>
+{% endif %}
+
+<div class="toolbar">
+  <button type="button" class="link-btn" data-toggle-all="open">Expand all</button>
+  <span aria-hidden="true">·</span>
+  <button type="button" class="link-btn" data-toggle-all="close">Collapse all</button>
+</div>
+
+{% for sec in sections %}
+{%- set list = collections.papers | byStatus(sec[0]) -%}
+{% if list.length %}
+<h2>{{ sec[1] }}</h2>
+{% for p in list %}
+{%- set d = p.data -%}
+{%- set pid = "paper-" + (d.title | slug2) -%}
+{%- set abstract = p.rawInput | trim -%}
+<article class="paper" id="{{ pid }}">
+  <h3 class="paper-title">{% if d.url %}<a href="{{ d.url }}" target="_blank" rel="noopener">{{ d.title }}</a>{% else %}{{ d.title }}{% endif %}</h3>
+  {%- set authorsHtml = d.authors | authorList(coauthors, site.author_name) -%}
+  {%- set endsWithDot = (authorsHtml | striptags | trim).endsWith(".") and not d.year -%}
+  <p class="paper-meta">
+    {{ authorsHtml | safe }}{% if d.year %} ({{ d.year }}){% endif %}{% if d.venue %}{% if not endsWithDot %}.{% endif %}
+    <span class="venue">{{ d.venue | md | replace("<p>", "") | replace("</p>", "") | trim | safe }}</span>{% endif %}
+  </p>
+  {%- if abstract or d.figures.length or d.links.length or d.doi %}
+  <div class="paper-actions">
+    {%- if abstract %}<button type="button" class="pill" aria-expanded="false" aria-controls="{{ pid }}-abs"><i class="bi bi-chevron-right" aria-hidden="true"></i> Abstract</button>{% endif %}
+    {%- if d.figures.length %}<button type="button" class="pill" aria-expanded="false" aria-controls="{{ pid }}-fig"><i class="bi bi-chevron-right" aria-hidden="true"></i> Figures</button>{% endif %}
+    {%- for l in d.links %}<a class="pill pill-link" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a>{% endfor %}
+    {%- if d.doi %}<a class="pill pill-link" href="https://doi.org/{{ d.doi }}" target="_blank" rel="noopener">DOI</a>{% endif %}
+  </div>
+  {%- endif %}
+  {%- if abstract %}
+  <div class="panel abstract" id="{{ pid }}-abs" hidden>{{ abstract | md | safe }}</div>
+  {%- endif %}
+  {%- if d.figures.length %}
+  <div class="panel figures" id="{{ pid }}-fig" hidden>
+    {%- for f in d.figures %}
+    <figure>
+      <img src="{{ f.image }}" alt="{{ f.caption or d.title }}" loading="lazy">
+      {% if f.caption %}<figcaption>{{ f.caption }}</figcaption>{% endif %}
+    </figure>
+    {%- endfor %}
+  </div>
+  {%- endif %}
+</article>
+{% endfor %}
+{% endif %}
+{% endfor %}
+
+{% if book_chapters %}
+<h2>Contributed Book Chapters</h2>
+<div class="plain-entry">{{ book_chapters | md | safe }}</div>
+{% endif %}
+
+{% if presentations.length %}
+<h2>Conference Papers &amp; Presentations</h2>
+{% for t in presentations %}
+<div class="talk">
+  <p class="talk-title">{{ t.title }}</p>
+  <p class="talk-event">{% if t.event_url %}<a href="{{ t.event_url }}" target="_blank" rel="noopener">{{ t.event }}</a>{% else %}{{ t.event }}{% endif %}{% if t.when_where %} · {{ t.when_where }}{% endif %}</p>
+  {% if t.details %}<p class="talk-detail">{{ t.details | trim | replace("\n", "<br>") | safe }}</p>{% endif %}
+  {% if t.organizer %}<p class="talk-org">{{ t.organizer }}</p>{% endif %}
+</div>
+{% endfor %}
+{% endif %}

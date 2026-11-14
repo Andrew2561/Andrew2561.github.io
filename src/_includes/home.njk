@@ -1,0 +1,29 @@
+---
+layout: base.njk
+---
+{%- set icons = {
+  "google-scholar": "ai ai-google-scholar",
+  "researchgate": "ai ai-researchgate",
+  "orcid": "ai ai-orcid",
+  "linkedin": "bi bi-linkedin",
+  "email": "bi bi-envelope-fill",
+  "profile": "bi bi-person-vcard-fill",
+  "github": "bi bi-github",
+  "x": "bi bi-twitter-x",
+  "bluesky": "bi bi-bluesky",
+  "website": "bi bi-globe2",
+  "cv": "ai ai-cv"
+} -%}
+<div class="home">
+  <div class="home-side">
+    {% if photo %}<img class="headshot" src="{{ photo }}" alt="{{ photo_alt or site.name }}">{% endif %}
+    <div class="icon-links" aria-label="Profile links">
+      {%- for l in site.links %}
+      <a href="{{ l.url }}" title="{{ l.label }}" aria-label="{{ l.label }}"{% if not (l.url | string).startsWith("mailto:") %} target="_blank" rel="noopener"{% endif %}><i class="{{ icons[l.icon] or 'bi bi-link-45deg' }}" aria-hidden="true"></i></a>
+      {%- endfor %}
+    </div>
+  </div>
+  <div class="home-text">
+    {{ content | safe }}
+  </div>
+</div>

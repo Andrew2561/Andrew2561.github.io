@@ -1,0 +1,16 @@
+{
+  "name": "andrew-zhai-website",
+  "version": "1.0.0",
+  "description": "Personal academic website of Andrew Zhai",
+  "scripts": {
+    "start": "eleventy --serve --port 8080",
+    "build": "eleventy"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.8",
+    "js-yaml": "^5.5.0",
+    "markdown-it": "^15.0.3"
+  },
+  "private": true
+}

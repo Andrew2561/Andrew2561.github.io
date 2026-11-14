@@ -1,0 +1,34 @@
+name: Andrew Zhai
+# Your name exactly as it appears in author lists (shown in bold on the Research page)
+author_name: Zhai, D.
+description: Andrew Zhai is a Ph.D. student in Environmental Policy at Duke University studying the social costs of biodiversity losses.
+nav:
+  - label: About me
+    url: /
+  - label: CV
+    url: /cv/
+  - label: Research
+    url: /research/
+  - label: Teaching
+    url: /teaching/
+  - label: Resources
+    url: /resources/
+links:
+  - label: Google Scholar
+    icon: google-scholar
+    url: https://scholar.google.com/citations?hl=en&user=YCsb78QAAAAJ
+  - label: ResearchGate
+    icon: researchgate
+    url: https://www.researchgate.net/profile/Daye-Zhai
+  - label: ORCID
+    icon: orcid
+    url: https://orcid.org/0009-0001-7407-4219
+  - label: LinkedIn
+    icon: linkedin
+    url: https://www.linkedin.com/in/daye-zhai/
+  - label: Email
+    icon: email
+    url: mailto:daye.zhai@duke.edu
+  - label: Scholars@Duke
+    icon: profile
+    url: https://scholars.duke.edu/person/Andrew.Zhai

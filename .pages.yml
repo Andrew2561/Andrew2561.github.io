@@ -1,0 +1,262 @@
+# Pages CMS configuration — defines the editing forms at https://app.pagescms.org
+media:
+  input: src/assets/uploads
+  output: /assets/uploads
+
+settings:
+  content:
+    merge: true   # keep layout/permalink keys that are not shown in the forms
+
+content:
+  - name: home
+    label: "About me (Home)"
+    type: file
+    path: src/index.md
+    fields:
+      - name: photo
+        label: Photo
+        type: image
+      - name: photo_alt
+        label: Photo description (for screen readers)
+        type: string
+      - name: body
+        label: Bio
+        type: rich-text
+
+  - name: cv
+    label: CV
+    type: file
+    path: src/cv.md
+    fields:
+      - name: drive_link
+        label: Google Drive link to your CV
+        description: In Drive, Share → "Anyone with the link" → Copy link, then paste here. To update the CV later, use "Manage versions → Upload new version" in Drive and keep the same link.
+        type: string
+        required: true
+      - name: show_preview
+        label: Show the embedded PDF preview
+        type: boolean
+      - name: body
+        label: Optional note above the buttons
+        type: rich-text
+
+  - name: research
+    label: Research page
+    type: file
+    path: src/research.md
+    fields:
+      - name: statement
+        label: Research interests statement (green box at the top)
+        type: rich-text
+      - name: book_chapters
+        label: Contributed book chapters
+        type: rich-text
+      - name: presentations
+        label: Conference papers & presentations
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title} — {when_where}"
+        fields:
+          - name: title
+            label: Title
+            type: string
+          - name: event
+            label: Event / program name
+            type: string
+          - name: event_url
+            label: Event link (optional)
+            type: string
+          - name: when_where
+            label: "Date · Location"
+            type: string
+          - name: details
+            label: Session details (one per line)
+            type: text
+          - name: organizer
+            label: Organizer
+            type: string
+
+  - name: papers
+    label: Papers
+    type: collection
+    path: src/papers
+    exclude: [papers.json]
+    filename: "{primary}.md"
+    view:
+      fields: [title, status, order]
+      primary: title
+      sort: [status, order, title]
+      default:
+        sort: status
+        order: asc
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: status
+        label: Section
+        type: select
+        required: true
+        options:
+          values:
+            - name: published
+              label: Peer Reviewed Papers
+            - name: working
+              label: Working Papers
+            - name: progress
+              label: Works in Progress
+      - name: order
+        label: Position within its section (1 = top)
+        type: number
+      - name: year
+        label: Year (optional)
+        type: number
+      - name: authors
+        label: Authors (in order)
+        description: Write names like "Pfaff, A." — co-author homepages are filled in once under "Co-authors". You can also put a link here to override it for this paper.
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name}"
+        fields:
+          - name: name
+            label: Name
+            type: string
+          - name: url
+            label: Homepage (optional, overrides the Co-authors list)
+            type: string
+      - name: venue
+        label: "Journal / status (e.g. *Forest Policy and Economics* 158, 103122 — or — Under review at *Conservation Letters*)"
+        type: string
+      - name: url
+        label: Link for the title (paper page, PDF or SSRN)
+        type: string
+      - name: doi
+        label: "DOI (e.g. 10.1016/j.forpol.2023.103122) — shows a DOI button"
+        type: string
+      - name: links
+        label: Extra buttons (PDF, Slides, Replication code, Press …)
+        type: object
+        list: true
+        fields:
+          - name: label
+            label: Button text
+            type: string
+          - name: url
+            label: Link
+            type: string
+      - name: figures
+        label: Figures (shown under a collapsible "Figures" button)
+        type: object
+        list: true
+        fields:
+          - name: image
+            label: Image
+            type: image
+          - name: caption
+            label: Caption (optional)
+            type: string
+      - name: body
+        label: Abstract (shown under a collapsible "Abstract" button; leave empty to hide)
+        type: rich-text
+
+  - name: coauthors
+    label: Co-authors (homepage links)
+    type: file
+    path: src/_data/coauthors.yml
+    format: yaml
+    list: true
+    fields:
+      - name: name
+        label: Name exactly as written in author lists (e.g. "Pfaff, A.")
+        type: string
+      - name: url
+        label: Homepage
+        type: string
+
+  - name: teaching
+    label: Teaching page
+    type: file
+    path: src/teaching.md
+    fields:
+      - name: statement_title
+        label: Title of the collapsible box
+        type: string
+      - name: statement_open
+        label: Show the statement expanded by default
+        type: boolean
+      - name: statement
+        label: Teaching statement
+        type: rich-text
+      - name: experience
+        label: Teaching experience
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{institution}"
+        fields:
+          - name: institution
+            label: Institution
+            type: string
+          - name: courses
+            label: Courses (one line each)
+            type: string
+            list: true
+
+  - name: resources
+    label: Resources page
+    type: file
+    path: src/resources.md
+    fields:
+      - name: body
+        label: Resources
+        description: Each "Heading 2" becomes a collapsible box; "Heading 3" becomes a green sub-heading inside it.
+        type: rich-text
+
+  - name: site
+    label: Site settings (name, menu, profile buttons)
+    type: file
+    path: src/_data/site.yml
+    fields:
+      - name: name
+        label: Name shown in the top bar
+        type: string
+      - name: author_name
+        label: Your name as written in author lists (shown in bold)
+        type: string
+      - name: description
+        label: Short description for search engines
+        type: text
+      - name: nav
+        label: Top menu
+        type: object
+        list: true
+        fields:
+          - name: label
+            type: string
+          - name: url
+            type: string
+      - name: links
+        label: Profile buttons under the photo
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{label}"
+        fields:
+          - name: label
+            label: Label (shown on hover)
+            type: string
+          - name: icon
+            label: Icon
+            type: select
+            options:
+              values: [google-scholar, researchgate, orcid, linkedin, email, profile, github, x, bluesky, website, cv]
+          - name: url
+            label: "Link (for email use mailto:you@example.com)"
+            type: string

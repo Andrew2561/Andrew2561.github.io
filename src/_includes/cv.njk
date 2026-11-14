@@ -1,0 +1,20 @@
+---
+layout: base.njk
+---
+{%- set fileId = "" -%}
+{%- if drive_link and "/file/d/" in drive_link -%}
+  {%- set fileId = drive_link.split("/file/d/")[1].split("/")[0] -%}
+{%- elif drive_link and "id=" in drive_link -%}
+  {%- set fileId = drive_link.split("id=")[1].split("&")[0] -%}
+{%- endif -%}
+<h1 class="page-title">{{ title }}</h1>
+{{ content | safe }}
+<p class="btn-row">
+  <a class="btn" href="{{ drive_link }}" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf" aria-hidden="true"></i> Open CV</a>
+  {% if fileId %}<a class="btn btn-ghost" href="https://drive.google.com/uc?export=download&amp;id={{ fileId }}"><i class="bi bi-download" aria-hidden="true"></i> Download PDF</a>{% endif %}
+</p>
+{% if show_preview and fileId %}
+<div class="cv-frame">
+  <iframe src="https://drive.google.com/file/d/{{ fileId }}/preview" title="CV preview" allow="autoplay"></iframe>
+</div>
+{% endif %}
