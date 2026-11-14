@@ -23,10 +23,6 @@ I am Andrew Zhai, currently a Ph.D. student in [Environmental Policy](https://ni
 
 &nbsp;
 
-&nbsp;
-
-&nbsp;
-
 **Contact me at:**  
 Grainger Hall  
 9 Circuit Drive  
