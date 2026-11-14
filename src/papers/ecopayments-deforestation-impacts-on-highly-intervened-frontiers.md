@@ -4,8 +4,8 @@ title: "Ecopayments' deforestation impacts on highly intervened frontiers:
 status: working
 order: 4
 authors:
-  - name: Pantoja, C.
-  - name: Tanner, M. K.
+  - name: Chrissie Pantoja
+  - name: Michael Tanner
   - name: Alexander Pfaff
     url: https://sanford.duke.edu/profile/alexander-pfaff/
   - name: Wang, Z.
