@@ -8,6 +8,9 @@ export default function (eleventyConfig) {
   eleventyConfig.addDataExtension("yml,yaml", (contents) => loadYaml(contents));
   eleventyConfig.addPlugin(HtmlBasePlugin);
 
+  // Version stamp appended to CSS/JS links so browsers never use stale files
+  eleventyConfig.addGlobalData("build", () => Date.now().toString(36));
+
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy({ "src/static": "/" });
 

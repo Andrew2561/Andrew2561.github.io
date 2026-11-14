@@ -45,6 +45,9 @@ h3 { font-size: 1.2rem; }
 .nav-links a { color: rgba(250, 250, 245, .85); font-size: 1rem; }
 .nav-links a:hover { color: #fff; text-decoration: none; }
 .nav-links a[aria-current="page"] { color: #fff; font-weight: 700; }
+/* Reserve the bold width for every link so the menu never shifts between pages */
+.nav-links a { display: inline-flex; flex-direction: column; align-items: center; }
+.nav-links a::after { content: attr(data-label); font-weight: 700; height: 0; overflow: hidden; visibility: hidden; }
 .nav-toggle {
   display: none; background: none; border: 0; color: var(--cream);
   font-size: 1.7rem; line-height: 1; padding: 6px; cursor: pointer;
@@ -55,9 +58,9 @@ h3 { font-size: 1.2rem; }
 .page-title { margin: 0 0 1.4rem; }
 
 /* ---------- Home (photo left, text right, icons under photo) ---------- */
-.home { display: grid; grid-template-columns: minmax(220px, 320px) 1fr; gap: 40px; align-items: start; margin-top: 12px; }
+.home { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; align-items: start; margin-top: 12px; }
 .home-side { text-align: center; }
-.headshot { width: 100%; max-width: 320px; border-radius: 4px; display: block; margin: 0 auto; }
+.headshot { width: 100%; border-radius: 2px; display: block; }
 .icon-links { margin-top: 18px; display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 14px; }
 .icon-links a { color: var(--moss); font-size: 28px; line-height: 1; }
 .icon-links a:hover { color: var(--fern); text-decoration: none; }
@@ -170,7 +173,7 @@ h3 { font-size: 1.2rem; }
   .nav-links a { display: block; padding: 8px 0; }
   .content { padding: 24px 16px 56px; }
   .home { grid-template-columns: 1fr; gap: 20px; }
-  .headshot { max-width: 240px; }
+  .headshot { max-width: 280px; margin: 0 auto; }
   .toolbar { text-align: left; margin-top: 0; }
   .figures { grid-template-columns: 1fr; }
   .fold > summary { padding: 11px 14px; }
