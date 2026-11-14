@@ -51,32 +51,9 @@ content:
       - name: book_chapters
         label: Contributed book chapters
         type: rich-text
-      - name: presentations
-        label: Conference papers & presentations
-        type: object
-        list:
-          collapsible:
-            collapsed: true
-            summary: "{title} — {when_where}"
-        fields:
-          - name: title
-            label: Title
-            type: string
-          - name: event
-            label: Event / program name
-            type: string
-          - name: event_url
-            label: Event link (optional)
-            type: string
-          - name: when_where
-            label: "Date · Location"
-            type: string
-          - name: details
-            label: Session details (one per line)
-            type: text
-          - name: organizer
-            label: Organizer
-            type: string
+      - name: reports
+        label: Contributed reports
+        type: rich-text
 
   - name: papers
     label: Papers
@@ -226,9 +203,10 @@ content:
       - name: name
         label: Name shown in the top bar
         type: string
-      - name: author_name
-        label: Your name as written in author lists (shown in bold)
+      - name: my_names
+        label: Your name as it may appear in author lists (all forms are shown in bold)
         type: string
+        list: true
       - name: description
         label: Short description for search engines
         type: text

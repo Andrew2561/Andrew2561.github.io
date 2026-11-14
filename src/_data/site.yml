@@ -1,6 +1,12 @@
 name: Andrew Zhai
-# Your name exactly as it appears in author lists (shown in bold on the Research page)
-author_name: Zhai, D.
+# Every way your name may be written in author lists; all are shown in bold
+my_names:
+  - Zhai, D.
+  - Zhai, Daye
+  - Daye Zhai
+  - Andrew Zhai
+  - Andrew (Daye) Zhai
+  - Zhai, Andrew
 description: Andrew Zhai is a Ph.D. student in Environmental Policy at Duke University studying the social costs of biodiversity losses.
 nav:
   - label: About me

@@ -40,7 +40,8 @@ export default function (eleventyConfig) {
       const name = typeof a === "string" ? a : a.name || "";
       const url = (typeof a === "object" && a.url) || directory[normalize(name)];
       const esc = escapeHtml(name);
-      if (me && normalize(name) === normalize(me)) return `<strong>${esc}</strong>`;
+      const mine = (Array.isArray(me) ? me : [me]).filter(Boolean).map(normalize);
+      if (mine.includes(normalize(name))) return `<strong>${esc}</strong>`;
       return url ? `<a href="${escapeAttr(url)}">${esc}</a>` : esc;
     });
     if (items.length === 1) return items[0];

@@ -30,7 +30,7 @@ layout: base.njk
 {%- set abstract = p.rawInput | trim -%}
 <article class="paper" id="{{ pid }}">
   <h3 class="paper-title">{% if d.url %}<a href="{{ d.url }}" target="_blank" rel="noopener">{{ d.title }}</a>{% else %}{{ d.title }}{% endif %}</h3>
-  {%- set authorsHtml = d.authors | authorList(coauthors, site.author_name) -%}
+  {%- set authorsHtml = d.authors | authorList(coauthors, site.my_names or site.author_name) -%}
   {%- set endsWithDot = (authorsHtml | striptags | trim).endsWith(".") and not d.year -%}
   <p class="paper-meta">
     {{ authorsHtml | safe }}{% if d.year %} ({{ d.year }}){% endif %}{% if d.venue %}{% if not endsWithDot %}.{% endif %}
@@ -67,14 +67,7 @@ layout: base.njk
 <div class="plain-entry">{{ book_chapters | md | safe }}</div>
 {% endif %}
 
-{% if presentations.length %}
-<h2>Conference Papers &amp; Presentations</h2>
-{% for t in presentations %}
-<div class="talk">
-  <p class="talk-title">{{ t.title }}</p>
-  <p class="talk-event">{% if t.event_url %}<a href="{{ t.event_url }}" target="_blank" rel="noopener">{{ t.event }}</a>{% else %}{{ t.event }}{% endif %}{% if t.when_where %} · {{ t.when_where }}{% endif %}</p>
-  {% if t.details %}<p class="talk-detail">{{ t.details | trim | replace("\n", "<br>") | safe }}</p>{% endif %}
-  {% if t.organizer %}<p class="talk-org">{{ t.organizer }}</p>{% endif %}
-</div>
-{% endfor %}
+{% if reports %}
+<h2>Contributed Reports</h2>
+<div class="plain-entry">{{ reports | md | safe }}</div>
 {% endif %}
