@@ -15,4 +15,12 @@ authors:
   - name: Rita de Sousa e Silva
   - name: Arnold Tukker
 venue: Accepted at *Nature Communications*
+figures:
+  - image: /assets/uploads/Dynamic and seasonal impacts of the SCP on road
+      congestion. .png
+    caption: "Dynamic and seasonal impacts of the SCP on road congestion. "
+  - image: /assets/uploads/Historical and projected spatiotemporal patterns of
+      threshold-exceeding precipitation days across China.png
+    caption: Historical and projected spatiotemporal patterns of threshold-exceeding
+      precipitation days across China
 ---
