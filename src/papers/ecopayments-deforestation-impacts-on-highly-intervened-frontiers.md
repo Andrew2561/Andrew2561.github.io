@@ -8,7 +8,7 @@ authors:
   - name: Michael Tanner
   - name: Alexander Pfaff
     url: https://sanford.duke.edu/profile/alexander-pfaff/
-  - name: Wang, Z.
+  - name: Zhenhua Wang
   - name: Daye Zhai
 venue: To be submitted to *Journal of the Association of Environmental and
   Resource Economists*
