@@ -1,14 +1,11 @@
 ---
-title: "Predators as infrastructure: Keystone species collapse and coastal storm damage"
+title: "Predators as infrastructure: Keystone species collapse and coastal storm
+  damage"
 status: progress
 order: 3
 authors:
-  - name: "Zhai, D."
-  - name: "Fan, Y."
-  - name: "Smith, M."
-venue: ""
-url: ""
-doi: ""
-links: []
-figures: []
+  - name: Zhai, D.
+  - name: Yichun Fan
+  - name: Martin Smith
+    url: https://nicholas.duke.edu/people/faculty/smith
 ---
