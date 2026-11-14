@@ -8,5 +8,5 @@ authors:
   - name: Daye Zhai (co-lead)
   - name: Ziwei Ye
     url: https://ziweiye.github.io/
-venue: To be submitted to *Journal of Development Economics*
+venue: Under review at *Journal of Development Economics*
 ---
