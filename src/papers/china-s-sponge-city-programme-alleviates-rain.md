@@ -5,7 +5,7 @@ order: 1
 year: 2026
 authors:
   - name: Yanghan Lin
-  - name: Zhaowu Yu*
+  - name: Zhaowu Yu
   - name: Daye Zhai
   - name: Tao Lin
   - name: Bin Chen
