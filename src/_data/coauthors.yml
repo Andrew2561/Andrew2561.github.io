@@ -1,61 +1,34 @@
-# Co-author homepages. Fill in a URL once and every paper that lists
-# this co-author (same spelling, e.g. "Pfaff, A.") links to it automatically.
-# Leave url empty if the co-author has no homepage.
-- name: Chen, B.
-  url: ""
-- name: Chen, X.
-  url: ""
-- name: Fan, Y.
-  url: ""
+- name: Bin Chen
+- name: Xingchen Chen
+- name: Yichun Fan
+  url: https://sites.google.com/view/yichunfan/home
 - name: Fang, H.
-  url: ""
-- name: Hu, M.
-  url: ""
+- name: Mingming Hu
+  url: https://www.universiteitleiden.nl/en/staffmembers/mingming-hu#tab-1
 - name: Huang, B.
-  url: ""
 - name: Lana, J.
-  url: ""
 - name: Li, X.
-  url: ""
 - name: Lin, T.
-  url: ""
 - name: Lin, Y.
-  url: ""
 - name: Liu, J.
-  url: ""
 - name: Mei, B.
-  url: ""
 - name: Pan, W.
-  url: ""
 - name: Pantoja, C.
-  url: ""
 - name: Pfaff, A.
-  url: ""
 - name: Smith, M.
-  url: ""
 - name: Sousa e Silva, A. R.
-  url: ""
 - name: Tang, J.
-  url: ""
 - name: Tanner, M. K.
-  url: ""
 - name: Tukker, A.
-  url: ""
 - name: Wang, J.
-  url: ""
 - name: Wang, W.
-  url: ""
 - name: Wang, Z.
-  url: ""
 - name: Xiang, Y.
-  url: ""
 - name: Yang, Y.
-  url: ""
-- name: Ye, Z.
-  url: ""
-- name: Yu, Z.
-  url: ""
-- name: Zhang, J.
-  url: ""
-- name: Zhu, S.
-  url: ""
+- name: Ziwei Ye
+  url: https://ziweiye.github.io/
+- name: Zhaowu Yu
+  url: https://environment.fudan.edu.cn/etcese/59/9b/c48648a743835/page.htm
+- name: Junjie Zhang
+  url: https://nicholas.duke.edu/people/faculty/zhang-0
+- name: Shuning Zhu
