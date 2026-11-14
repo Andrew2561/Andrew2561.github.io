@@ -51,7 +51,7 @@ layout: base.njk
   <div class="panel figures" id="{{ pid }}-fig" hidden>
     {%- for f in d.figures %}
     <figure>
-      <img src="{{ f.image }}" alt="{{ f.caption or d.title }}" loading="lazy">
+      <img src="{{ f.image | replace(' ', '%20') }}" alt="{{ f.caption or d.title }}" loading="lazy">
       {% if f.caption %}<figcaption>{{ f.caption }}</figcaption>{% endif %}
     </figure>
     {%- endfor %}
@@ -62,12 +62,12 @@ layout: base.njk
 {% endif %}
 {% endfor %}
 
-{% if book_chapters %}
-<h2>Contributed Book Chapters</h2>
-<div class="plain-entry">{{ book_chapters | md | safe }}</div>
-{% endif %}
-
 {% if reports %}
 <h2>Contributed Reports</h2>
 <div class="plain-entry">{{ reports | md | safe }}</div>
+{% endif %}
+
+{% if book_chapters %}
+<h2>Contributed Book Chapters</h2>
+<div class="plain-entry">{{ book_chapters | md | safe }}</div>
 {% endif %}
