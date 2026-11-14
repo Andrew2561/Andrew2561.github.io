@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching/
 statement_title: Teaching Statement
 statement_open: false
-statement: |
+statement: |-
   ### Context Statement
 
   I am a third-year Ph.D. student in Environmental Policy (Economics track) in the Nicholas School of the Environment at Duke University, where my research focuses on the social costs (returns) of biodiversity losses (gains). In Fall 2025 I was the TA and primary lab facilitator for ENV 710, Applied Statistical Modeling for Environmental Management, a graduate course of about 15 professional master's students. I led its R lab sections, designed and taught two review sessions, wrote feedback on final group projects, and held office hours. My classroom has been a computer lab, where students work through R tutorials on real datasets while I walk through the code and help individuals debug. My students were applied users of statistics and they arrived with mixed quantitative preparation. Two commitments shape how I teach. I present statistics as a series of decisions an analyst makes with real data. And I pace each session so the whole room keeps up, not only the fastest students.
@@ -51,9 +51,13 @@ statement: |
 experience:
   - institution: Duke University
     courses:
-      - "ENV 710: Applied Statistical Modeling for Environmental Management (TA, Fall 2025, Credit: 3)"
+      - "ENV 710: Applied Statistical Modeling for Environmental Management
+        (Fall 2025)"
+      - "PUBPOL 813: Quantitative Evaluation Methods (Spring 2027)"
   - institution: Renmin University of China
     courses:
-      - "Rural Sociology (Head TA, Spring 2023, Credit: 2, Class Size: 33 postgraduates)"
-      - "Social Science Research Methods (Head TA, Spring 2022, Credit: 2, Class Size: 15 undergraduates)"
+      - "Rural Sociology (Head TA, Spring 2023, Credit: 2, Class Size: 33
+        postgraduates)"
+      - "Social Science Research Methods (Head TA, Spring 2022, Credit: 2, Class
+        Size: 15 undergraduates)"
 ---
