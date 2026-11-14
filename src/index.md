@@ -2,7 +2,7 @@
 layout: home.njk
 title: About me
 permalink: /
-photo: /assets/uploads/headshot.jpg
+photo: /assets/uploads/headshot.png
 photo_alt: Portrait of Andrew Zhai
 ---
 
