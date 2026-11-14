@@ -1,15 +1,11 @@
 ---
-title: "Off-site grazing at the agro-pastoral interface as a pathway for coupling social-ecological systems"
+title: Off-site grazing at the agro-pastoral interface as a pathway for coupling
+  social-ecological systems
 status: progress
-order: 5
+order: 6
 authors:
-  - name: "Daye Zhai"
-  - name: "Shuning Zhu"
-  - name: "Zhang, J."
-  - name: "Weiye Wang"
-venue: ""
-url: ""
-doi: ""
-links: []
-figures: []
+  - name: Daye Zhai
+  - name: Shuning Zhu
+  - name: Zhang, J.
+  - name: Weiye Wang
 ---
