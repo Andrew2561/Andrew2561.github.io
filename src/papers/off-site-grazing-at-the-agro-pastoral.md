@@ -3,10 +3,10 @@ title: "Off-site grazing at the agro-pastoral interface as a pathway for couplin
 status: progress
 order: 5
 authors:
-  - name: "Zhai, D."
-  - name: "Zhu, S."
+  - name: "Daye Zhai"
+  - name: "Shuning Zhu"
   - name: "Zhang, J."
-  - name: "Wang, W."
+  - name: "Weiye Wang"
 venue: ""
 url: ""
 doi: ""

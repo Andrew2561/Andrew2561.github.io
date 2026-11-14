@@ -3,10 +3,10 @@ title: "Biodiversity conservation governance in China at the science-policy inte
 status: working
 order: 1
 authors:
-  - name: "Zhai, D."
+  - name: "Daye Zhai"
   - name: "Xiang, Y."
-  - name: "Liu, J."
-  - name: "Wang, W."
+  - name: "Jinlong Liu"
+  - name: "Weiye Wang"
 venue: "Under review at *Conservation Letters*"
 url: ""
 doi: ""

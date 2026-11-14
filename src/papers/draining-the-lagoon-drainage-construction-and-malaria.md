@@ -3,10 +3,10 @@ title: "Draining the lagoon: Drainage construction and Malaria in Gracias a Dios
 status: progress
 order: 2
 authors:
-  - name: "Zhai, D."
-  - name: "Lana, J."
-  - name: "Pan, W."
-  - name: "Pfaff, A."
+  - name: "Daye Zhai"
+  - name: "Justin Lana"
+  - name: "William Pan"
+  - name: "Alexander Pfaff"
 venue: ""
 url: ""
 doi: ""

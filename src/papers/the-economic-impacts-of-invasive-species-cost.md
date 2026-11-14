@@ -4,7 +4,7 @@ title: "The economic impacts of invasive species: Cost of substituting
 status: progress
 order: 1
 authors:
-  - name: Zhai, D.
+  - name: Daye Zhai
   - name: Xingchen Chen
   - name: Bin Mei
     url: https://nicholas.duke.edu/people/faculty/mei

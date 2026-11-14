@@ -3,7 +3,7 @@ title: "The hidden toxicity of charity: Hunter venison donation programs and chi
 status: progress
 order: 4
 authors:
-  - name: "Zhai, D."
+  - name: "Daye Zhai"
 venue: ""
 url: ""
 doi: ""

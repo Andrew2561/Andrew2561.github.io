@@ -7,7 +7,7 @@ authors:
   - name: Xingchen Chen
   - name: Yichun Fan
     url: https://sites.google.com/view/yichunfan/home
-  - name: Daye zhai
+  - name: Daye Zhai
   - name: Junjie Zhang
     url: https://nicholas.duke.edu/people/faculty/zhang-0
 venue: To be submitted to *PNAS*
