@@ -1,15 +1,12 @@
 ---
-title: "Biodiversity conservation governance in China at the science-policy interface"
+title: Biodiversity conservation governance in China at the science-policy interface
 status: working
 order: 1
 authors:
-  - name: "Daye Zhai"
-  - name: "Xiang, Y."
-  - name: "Jinlong Liu"
-  - name: "Weiye Wang"
-venue: "Under review at *Conservation Letters*"
-url: ""
-doi: ""
-links: []
-figures: []
+  - name: Daye Zhai
+  - name: Yanan Xiang
+  - name: Jinlong Liu
+    url: http://sarden.ruc.edu.cn/People/Faculty/Professor/ddc803affb414dc7b22f8791e2a070f7.htm
+  - name: Weiye Wang
+venue: Under review at *Conservation Letters*
 ---
