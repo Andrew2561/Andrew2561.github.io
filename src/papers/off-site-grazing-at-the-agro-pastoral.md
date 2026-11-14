@@ -6,6 +6,6 @@ order: 6
 authors:
   - name: Daye Zhai
   - name: Shuning Zhu
-  - name: Zhang, J.
+  - name: Jiapeng Zhang
   - name: Weiye Wang
 ---
