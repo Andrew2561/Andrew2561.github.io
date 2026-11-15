@@ -2,9 +2,9 @@
 layout: cv.njk
 title: CV
 permalink: /cv/
-# Paste the Google Drive "share" link of your CV here. Make sure link sharing
-# is set to "Anyone with the link can view". Replace the file in Drive
-# (Manage versions > Upload new version) and the site updates automatically.
-drive_link: https://drive.google.com/file/d/1Ys5_sybThSHLctekgbKKBjxXUAiGA7jr/view?usp=sharing
+# Path of your CV PDF inside this repository. To update the CV, replace
+# src/assets/uploads/CV_Andrew_Daye_Zhai.pdf with the new file (same name),
+# or upload a new PDF in Pages CMS and pick it here.
+cv_file: /assets/uploads/CV_Andrew_Daye_Zhai.pdf
 show_preview: true
 ---

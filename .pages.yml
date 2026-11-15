@@ -28,11 +28,13 @@ content:
     type: file
     path: src/cv.md
     fields:
-      - name: drive_link
-        label: Google Drive link to your CV
-        description: In Drive, Share → "Anyone with the link" → Copy link, then paste here. To update the CV later, use "Manage versions → Upload new version" in Drive and keep the same link.
-        type: string
+      - name: cv_file
+        label: CV (PDF)
+        description: Upload the PDF here (stored in src/assets/uploads). To update, upload the new file with the same name, or pick the new file.
+        type: file
         required: true
+        options:
+          extensions: [pdf]
       - name: show_preview
         label: Show the embedded PDF preview
         type: boolean
