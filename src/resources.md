@@ -558,3 +558,5 @@ Annual Yale Global Environmental Justice Conference/Environmental Joy Congress |
 [GALLERIX](https://gallerix.org/)
 
 [Artvee](https://artvee.com/)
+
+[A Walkable History of Art](https://artmuseum.artfrompixels.com/)
