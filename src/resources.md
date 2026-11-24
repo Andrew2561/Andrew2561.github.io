@@ -493,6 +493,8 @@ Annual Yale Global Environmental Justice Conference/Environmental Joy Congress |
 
 [Structural Econometrics](https://comlabgames.com/structuraleconometrics/https://comlabgames.com/structuraleconometrics/) @ Robert Miller (CMU)
 
+[Structural Econometrics with Julia](https://www.josephlyonmullins.com/structural-econometrics-julia/) @ Joseph Mullins
+
 [@ Toni M. Whited (UMich)](https://www.toniwhited.com/teaching)
 
 [EconML: A Python Package for ML-Based Heterogeneous Treatment Effects Estimation](https://github.com/py-why/EconML)
